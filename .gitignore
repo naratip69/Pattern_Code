@@ -1,2 +1,8 @@
-!*.ipynb
-!/*/*.ipynb
+# Ignore all files
+*
+
+# Except for subfolders
+!**/
+.*
+# Except for .ipynb files within those subfolders
+!**/*.ipynb
